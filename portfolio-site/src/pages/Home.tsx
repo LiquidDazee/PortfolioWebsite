@@ -7,6 +7,7 @@ import "../App.css"; // Import the CSS file for styling
 const Home: React.FC = () => {
   return (
     <div className="home-container">
+      <div className="navbar"></div>
       <img className="profile-image" src="./assets/react.svg" />
       <div className="description">
         <p>
@@ -21,6 +22,9 @@ const Home: React.FC = () => {
         <Link to="/projects" className="button">
           Projects
         </Link>
+      </div>
+      <div className="footer">
+        This Website was made in React and hosted on Home Server by me
       </div>
     </div>
   );
