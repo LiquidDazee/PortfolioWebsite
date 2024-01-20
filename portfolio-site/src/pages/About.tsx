@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Spotify } from "react-spotify-embed";
 import "../App.css";
 import "./Pages.css";
 
@@ -22,6 +23,7 @@ const About: React.FC = () => {
               <br />
               Here’s a song I think best describes me currently!
             </p>
+            {/* <Spotify link="https://open.spotify.com/track/3zJRvtQkHQRTNEXSY8jQPR?si=ec428547de3f4939" /> */}
           </div>
           <img className="about-image" src="../../public/puppycuddle.png" />
         </div>
