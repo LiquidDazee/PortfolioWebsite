@@ -16,7 +16,7 @@ const Home: React.FC = () => {
         </p>
       </div>
       <div className="buttons-container">
-        <Link to="/pages/About.tsx" className="button">
+        <Link to="/about" className="button">
           About
         </Link>
         <Link to="/projects" className="button">
