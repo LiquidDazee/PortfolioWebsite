@@ -25,40 +25,86 @@ const About: React.FC = () => {
             </p>
             {/* <Spotify link="https://open.spotify.com/track/3zJRvtQkHQRTNEXSY8jQPR?si=ec428547de3f4939" /> */}
           </div>
-          <img className="about-image" src="../../public/puppycuddle.png" />
+          <div className="image-container">
+            <img className="about-image" src="/puppycuddle.png" />
+            <p>(I'm on the right! The beautiful dog isn't mine)</p>
+          </div>
         </div>
-
-        <section className="about-section">
-          <h2>My Journey</h2>
+        <div className="about-me">
+          <h2>About Me</h2>
           <p>
-            I started my journey in [Year] when I [describe how your friend
-            started in their profession]. Since then, I've worked at [Previous
-            Employers] and completed [Number] projects that I'm really proud of.
+            Venturing beyond the confines of my professional life, here's a more
+            nuanced snapshot of who I am:
           </p>
-        </section>
+        </div>
+        <div className="grid-container">
+          <section className="about-section-1">
+            <h3>Tech Enthusiast and Musician:</h3>
+            <p>
+              While I navigate the digital landscape as a tech enthusiast
+              proficient in languages like C, C++, Python, and more, there's a
+              contrasting harmony to my off-screen world. I'm a bassist, deeply
+              immersed in the realms of jazz, funk, and rock. The strings of my
+              bass guitar resonate with the same vibrancy that fuels my coding
+              endeavors.
+            </p>
+          </section>
 
-        <section className="about-section">
-          <h2>My Philosophy</h2>
-          <p>
-            I believe in [Your Friend's Work Philosophy]. This philosophy has
-            guided me throughout my career and is a cornerstone of how I
-            approach my projects.
-          </p>
-        </section>
+          <section className="about-section-2">
+            <h3>Passion for Coding and Networks:</h3>
+            <p>
+              Coding isn't just a job for me; it's a passion. I find joy in
+              crafting elegant solutions, and my love for coding extends to
+              working on networks and self-hosting. The digital realm is not
+              merely a workplace but a canvas for my creativity and
+              problem-solving skills.
+            </p>
+          </section>
 
-        <section className="about-section">
-          <h2>Let's Connect</h2>
-          <p>
-            Interested in working together or learning more about my work? Feel
-            free to <Link to="/contact">contact me</Link> or connect with me on
-            social media.
-          </p>
-          {/* Social media links can be added here */}
-        </section>
+          <section className="about-section-3">
+            <h3>Academic Journey:</h3>
+            <p>
+              Equipped with a B.Tech major in Computer Science and an MBA major
+              in Marketing (with a minor in Business Analytics), I've seamlessly
+              merged technical expertise with strategic marketing insights. My
+              academic journey has been complemented by real-world experiences,
+              each role contributing to my growth and proficiency in diverse
+              domains.
+            </p>
+          </section>
 
-        <nav className="back-to-home">
-          <Link to="/">Back to Home</Link>
-        </nav>
+          <section className="about-section-4">
+            <h3>Versatility in Interests:</h3>
+            <p>
+              My multifaceted interests extend to driving, gaming, and reveling
+              in the captivating worlds of anime and manga. The thrill of the
+              road, the strategic nuances of gaming, and the immersive
+              narratives of anime fuel my sense of exploration and creativity.
+            </p>
+          </section>
+
+          <section className="about-section-5">
+            <h3>Coffee Break Chronicles:</h3>
+            <p>
+              Amidst my dynamic pursuits, there's always time for a coffee
+              break. Whether delving into lines of code or pondering over
+              marketing strategies, the rich aroma and comforting warmth of
+              coffee serve as constant companions.
+            </p>
+          </section>
+          <section className="about-section-6">
+            <h3>Motivation and Career Aspirations:</h3>
+            <p>
+              I am driven by an innate motivation to learn and adapt,
+              continuously acquiring new skills and staying at the forefront of
+              industry trends. My career aspirations revolve around the
+              intersection of technology, data, and strategic marketing. I
+              thrive in dynamic environments, leveraging my skills to contribute
+              meaningfully to innovative projects and initiatives.
+            </p>
+          </section>
+        </div>
+        <div className="empty-div-1" />
       </div>
     </div>
   );
