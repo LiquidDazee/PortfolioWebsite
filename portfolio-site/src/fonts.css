@@ -1,1 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=JetBrains+Mono");
+
+@font-face {
+  font-family: 'JetBrainsMono'; /* This is the name you'll use to reference the font in your styles */
+  src: url('/fonts/JetBrainsMono-Medium.ttf') format('truetype'); /* Adjust the path as needed */
+}

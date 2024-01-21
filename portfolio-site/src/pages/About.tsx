@@ -19,9 +19,7 @@ const About: React.FC = () => {
               loads of energy to the table. My journey in the tech and marketing
               realms has been fueled by an insatiable curiosity, a passion for
               learning, an unwavering commitment to innovation, and an eternal
-              love for coffee. <br />
-              <br />
-              Here’s a song I think best describes me currently!
+              love for coffee.
             </p>
             {/* <Spotify link="https://open.spotify.com/track/3zJRvtQkHQRTNEXSY8jQPR?si=ec428547de3f4939" /> */}
           </div>
@@ -32,7 +30,7 @@ const About: React.FC = () => {
         </div>
         <div className="about-me">
           <h2>About Me</h2>
-          <p>
+          <p className="about-me-text">
             Venturing beyond the confines of my professional life, here's a more
             nuanced snapshot of who I am:
           </p>
