@@ -17,15 +17,15 @@ const Home: React.FC = () => {
         </p>
       </div>
       <div className="buttons-container">
-        <Link to="/about" className="button">
+        <Link to="/about" className="button1">
           ABOUT
         </Link>
-        <Link to="/projects" className="button">
+        <Link to="/projects" className="button1">
           PROJECTS
         </Link>
       </div>
       <div className="footer">
-        This Website was made in React and hosted on home server by me
+        This Website was made in React and hosted on home server by me.
       </div>
     </div>
   );

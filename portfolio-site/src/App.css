@@ -2,6 +2,8 @@
 
 root {
   --font1: #ccccf1;
+  --font2: #9f9fb4;
+  --card: #40404d;
 }
 
 p {
@@ -85,7 +87,7 @@ p {
   margin: 30px;
 }
 
-.button {
+.button1 {
   padding: 10px 20px;
   background-color: #454552;
   font-family: "Sora", sans-serif;
@@ -97,7 +99,7 @@ p {
   box-shadow: 0px 8px 20px #00000044;
 }
 
-.button:hover {
+.button1:hover {
   background-color: #5c5c6a;
   /* color: #80b8ff; */
   color: #ff8736;
