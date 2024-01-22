@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=JetBrains+Mono");
 
 @font-face {
-  font-family: 'JetBrainsMono'; /* This is the name you'll use to reference the font in your styles */
-  src: url('/fonts/JetBrainsMono-Medium.ttf') format('truetype'); /* Adjust the path as needed */
+  font-family: "JetBrainsMono"; /* This is the name you'll use to reference the font in your styles */
+  src: url("/fonts/JetBrains_Mono/JetBrainsMono-Medium.ttf") format("truetype"); /* Adjust the path as needed */
+}
+
+@font-face {
+  font-family: "PoppinsMedium"; /* This is the name you'll use to reference the font in your styles */
+  src: url("/fonts/Poppins/Poppins-Medium.ttf") format("truetype"); /* Adjust the path as needed */
+}
+
+@font-face {
+  font-family: "Sora"; /* This is the name you'll use to reference the font in your styles */
+  src: url("/fonts/Sora/Sora-VariableFont_wght.ttf") format("truetype"); /* Adjust the path as needed */
 }

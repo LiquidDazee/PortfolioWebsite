@@ -7,8 +7,9 @@ import "../App.css"; // Import the CSS file for styling
 const Home: React.FC = () => {
   return (
     <div className="home-container">
-      <div className="navbar"></div>
-      <img className="profile-image" src="./assets/react.svg" />
+      {/* <div className="navbar"></div> */}
+      <img className="profile-image" src="/neelak2.png" />
+      <div className="name">NEELAK GHOSH</div>
       <div className="description">
         <p>
           Welcome to my portfolio! I am Neelak Ghosh, a passionate developer
@@ -17,14 +18,14 @@ const Home: React.FC = () => {
       </div>
       <div className="buttons-container">
         <Link to="/about" className="button">
-          About
+          ABOUT
         </Link>
         <Link to="/projects" className="button">
-          Projects
+          PROJECTS
         </Link>
       </div>
       <div className="footer">
-        This Website was made in React and hosted on Home Server by me
+        This Website was made in React and hosted on home server by me
       </div>
     </div>
   );
