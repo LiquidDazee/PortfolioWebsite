@@ -27,11 +27,29 @@ const Home: React.FC = () => {
       <a href="/Neelak_CV.pdf" download className="button1">
         Download CV
       </a>
-      {/* <div className="contact-links"> */}
-      <a href="mailto:neelakghoshwork@gmail.com" className="email" />
-      <a href="https://github.com/LiquidDazee" className="github" />
-      <a href="https://www.linkedin.com/in/neelakghosh" className="linkedin" />
-      {/* </div> */}
+      <div className="contact-links">
+        <a
+          href="mailto:neelakghoshwork@gmail.com"
+          className="email"
+          target="_blank"
+        >
+          <img className="email" src="/icons/email.png" />
+        </a>
+        <a
+          href="https://github.com/LiquidDazee"
+          className="github"
+          target="_blank"
+        >
+          <img className="github" src="/icons/github.png" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/neelakghosh"
+          className="linkedin"
+          target="_blank"
+        >
+          <img className="email" src="/icons/linkedin.png" />
+        </a>
+      </div>
       <div className="footer">
         This Website was made in React and hosted on home server by me.
       </div>
