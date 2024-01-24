@@ -104,3 +104,31 @@ p {
   /* color: #80b8ff; */
   color: #ff8736;
 }
+
+.contact-links {
+  /* z-index: 25; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+  width: 200px;
+  max-width: 90vw;
+  height: 70px;
+  background: grey;
+}
+
+.email,
+.github,
+.linkedin {
+  z-index: 25;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  /* background: black; */
+}
+
+.email {
+  /* background: url("/icons/email.png") !important; */
+  background-image: url("../public/icons/email.png") !important;
+}

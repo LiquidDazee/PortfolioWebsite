@@ -34,14 +34,14 @@ const Projects: React.FC = () => {
       description:
         "Analyzed correlations in a movie dataset using Python, Pandas and Statistical Analysis.",
       iconSrc: "/projects.png",
-      url: "https://github.com/LiquidDazee/Movie‑Correlation/tree/main",
+      url: "https://github.com/LiquidDazee/Movie-Correlation",
     },
     {
       name: "gARphics",
       description:
         "A novel approach to viewing graphs in the AR space, an application written using C and Unity.",
       iconSrc: "/projects.png",
-      url: "https://github.com/Not‑Pace/gARphics",
+      url: "https://github.com/Not-Pace/gARphics",
     },
   ];
 

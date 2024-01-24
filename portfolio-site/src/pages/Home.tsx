@@ -24,6 +24,14 @@ const Home: React.FC = () => {
           PROJECTS
         </Link>
       </div>
+      <a href="/Neelak_CV.pdf" download className="button1">
+        Download CV
+      </a>
+      {/* <div className="contact-links"> */}
+      <a href="mailto:neelakghoshwork@gmail.com" className="email" />
+      <a href="https://github.com/LiquidDazee" className="github" />
+      <a href="https://www.linkedin.com/in/neelakghosh" className="linkedin" />
+      {/* </div> */}
       <div className="footer">
         This Website was made in React and hosted on home server by me.
       </div>
