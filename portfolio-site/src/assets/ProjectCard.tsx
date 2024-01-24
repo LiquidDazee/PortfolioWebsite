@@ -1,6 +1,7 @@
 // ProjectCard.tsx
 
 import React from "react";
+import "./ProjectCard.css";
 
 interface ProjectCardProps {
   name: string;

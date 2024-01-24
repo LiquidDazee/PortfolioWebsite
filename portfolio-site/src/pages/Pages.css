@@ -45,7 +45,7 @@ p {
 }
 
 .navbar {
-  z-index: 2;
+  z-index: 2 !important;
   /* box-shadow: 0px 8px 20px #00000044; */
 
   display: flex;
@@ -224,4 +224,25 @@ p {
   display: flex;
   width: inherit;
   height: 100px;
+}
+
+/* ################################ Projects Page #################################### */
+
+.projects-page {
+  display: flex;
+  position: fixed;
+  top: 80px;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100vw;
+}
+
+.project-cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 50vh;
+  width: 1000px;
+  max-width: 90vh;
 }
