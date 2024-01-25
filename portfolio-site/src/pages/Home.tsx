@@ -11,7 +11,7 @@ const Home: React.FC = () => {
       <img className="profile-image" src="/neelak2.png" />
       <div className="name">NEELAK GHOSH</div>
       <div className="description">
-        <p>
+        <p id="des">
           Welcome to my portfolio! I am Neelak Ghosh, a passionate developer
           dedicated to creating awesome web applications.
         </p>
@@ -24,7 +24,7 @@ const Home: React.FC = () => {
           PROJECTS
         </Link>
       </div>
-      <a href="/Neelak_CV.pdf" download className="button1">
+      <a href="/Neelak_CV.pdf" download className="button1" id="cv">
         Download CV
       </a>
       <div className="contact-links">
