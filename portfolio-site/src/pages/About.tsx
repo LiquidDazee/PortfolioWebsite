@@ -7,20 +7,20 @@ import "./Pages.css";
 const About: React.FC = () => {
   return (
     <div className="background">
+      <div className="navbar">
+        <Link to="/" className="button1">
+          HOME
+        </Link>
+        <Link to="/projects" className="button1">
+          PROJECTS
+        </Link>
+      </div>
       <div className="about-page">
-        <div className="navbar">
-          <Link to="/" className="button1">
-            HOME
-          </Link>
-          <Link to="/projects" className="button1">
-            PROJECTS
-          </Link>
-        </div>
         <div className="container">
           <h1>Hi, I'm Neelak Ghosh!</h1>
           <div className="section">
             <div className="written-section">
-              <p>
+              <p id="written">
                 Hello! I'm Neelak Ghosh, a passionate developer with a
                 background in Computer Science and Marketing. An avid learner,
                 bassist, and technology enthusiast, I bring fresh ideas,
@@ -33,6 +33,7 @@ const About: React.FC = () => {
             </div>
             <div className="image-container">
               <img className="about-image" src="/puppycuddle.png" />
+              {/* <div className="about-image2" /> */}
               <p>(I'm on the right! The beautiful dog isn't mine)</p>
             </div>
           </div>
@@ -44,7 +45,7 @@ const About: React.FC = () => {
             </p>
           </div>
           <div className="grid-container">
-            <section className="about-section-1">
+            <section className="about-section">
               <h3>Tech Enthusiast and Musician:</h3>
               <p>
                 While I navigate the digital landscape as a tech enthusiast
@@ -56,7 +57,7 @@ const About: React.FC = () => {
               </p>
             </section>
 
-            <section className="about-section-2">
+            <section className="about-section">
               <h3>Passion for Coding and Networks:</h3>
               <p>
                 Coding isn't just a job for me; it's a passion. I find joy in
@@ -67,7 +68,7 @@ const About: React.FC = () => {
               </p>
             </section>
 
-            <section className="about-section-3">
+            <section className="about-section">
               <h3>Academic Journey:</h3>
               <p>
                 Equipped with a B.Tech major in Computer Science and an MBA
@@ -79,7 +80,7 @@ const About: React.FC = () => {
               </p>
             </section>
 
-            <section className="about-section-4">
+            <section className="about-section">
               <h3>Versatility in Interests:</h3>
               <p>
                 My multifaceted interests extend to driving, gaming, and
@@ -90,7 +91,7 @@ const About: React.FC = () => {
               </p>
             </section>
 
-            <section className="about-section-5">
+            <section className="about-section">
               <h3>Coffee Break Chronicles:</h3>
               <p>
                 Amidst my dynamic pursuits, there's always time for a coffee
@@ -99,7 +100,7 @@ const About: React.FC = () => {
                 coffee serve as constant companions.
               </p>
             </section>
-            <section className="about-section-6">
+            <section className="about-section">
               <h3>Motivation and Career Aspirations:</h3>
               <p>
                 I am driven by an innate motivation to learn and adapt,

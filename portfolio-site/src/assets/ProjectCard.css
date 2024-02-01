@@ -3,12 +3,13 @@
 .project-card {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  background: #44444d;
-  margin: 20px;
-  padding: 10px;
-  height: 200px;
+  max-width: 90vw;
+  margin: 10px;
+  padding: 5px;
+  padding-left: 20px;
+  background-color: #40404d;
   border-radius: 20px;
   box-shadow: 0px 8px 20px #00000044;
 
@@ -16,21 +17,15 @@
 }
 
 .project-icon {
-  height: 80px !important;
-  width: 80px !important;
-  margin: 15px;
+  width: 4rem;
 }
 
-.project-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  transform: translate(0px, -50px);
-  height: 80px;
-  padding: 10px;
-}
+/* ###################################### PHONE ####################################### */
 
-.project-description {
-  transform: translate(-5px, -20px);
+@media (max-width: 800px) {
+  .project-card {
+    flex-direction: column;
+    padding-left: 5px;
+    padding-top: 20px;
+  }
 }

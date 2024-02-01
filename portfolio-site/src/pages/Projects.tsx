@@ -47,26 +47,29 @@ const Projects: React.FC = () => {
 
   return (
     <div className="background">
+      <div className="navbar">
+        <Link to="/" className="button1">
+          HOME
+        </Link>
+        <Link to="/about" className="button1">
+          ABOUT
+        </Link>
+      </div>
       <div className="projects-page">
-        <div className="navbar">
-          <Link to="/" className="button1">
-            HOME
-          </Link>
-          <Link to="/about" className="button1">
-            ABOUT
-          </Link>
-        </div>
-        <h1>Projects</h1>
-        <div className="project-cards-container">
-          {projects.map((project, index) => (
-            <ProjectCard
-              key={index}
-              name={project.name}
-              description={project.description}
-              iconSrc={project.iconSrc}
-              url={project.url}
-            />
-          ))}
+        <div className="container">
+          <h1>Projects</h1>
+          <div className="project-cards-container">
+            {projects.map((project, index) => (
+              <ProjectCard
+                key={index}
+                name={project.name}
+                description={project.description}
+                iconSrc={project.iconSrc}
+                url={project.url}
+              />
+            ))}
+          </div>
+          <div className="empty-div-1" />
         </div>
       </div>
     </div>
