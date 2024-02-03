@@ -144,13 +144,21 @@ root {
     transform: translateY(-40px);
   }
 
+  .profile-image {
+    width: 10em;
+    height: 10em;
+  }
+
   .name {
-    font-size: 4rem;
-    line-height: 4.2rem;
+    font-size: 4.7rem;
+    line-height: 4.8rem;
+    margin: 5px;
+    margin-top: 20px;
   }
 
   .description {
-    margin-bottom: -30px; /* Might have to change the value to 0px */
+    margin-top: -10px;
+    margin-bottom: -25px; /* Might have to change the value to 0px */
   }
 
   #des {
@@ -158,19 +166,23 @@ root {
   }
 
   .buttons-container {
-    margin-bottom: 10px;
+    margin: 10px;
+  }
+
+  .button1 {
+    padding: 15px;
   }
 
   .contact-links {
-    margin-top: 10px;
+    margin-top: 30px;
   }
 
   .email,
   .github,
   .linkedin {
     display: flex;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
   }
 
   .footer {
