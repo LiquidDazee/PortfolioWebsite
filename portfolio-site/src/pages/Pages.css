@@ -89,7 +89,7 @@ h3 {
 
 .section {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-template-rows: 1fr;
   width: inherit;
   max-width: 97vh;
@@ -111,7 +111,7 @@ h3 {
 }
 
 .about-image {
-  width: 300px;
+  width: 350px;
   border-radius: 10px;
 }
 
