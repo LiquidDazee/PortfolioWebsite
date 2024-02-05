@@ -41,12 +41,12 @@ const About: React.FC = () => {
             <h2>About Me</h2>
             <p className="about-me-text">
               Venturing beyond the confines of my professional life, here's a
-              more nuanced snapshot of who I am:
+              more nuanced snapshot of who I am
             </p>
           </div>
           <div className="grid-container">
             <section className="about-section">
-              <h3>Tech Enthusiast and Musician:</h3>
+              <h3>Tech Enthusiast and Musician</h3>
               <p>
                 While I navigate the digital landscape as a tech enthusiast
                 proficient in languages like C, C++, Python, and more, there's a
@@ -58,7 +58,7 @@ const About: React.FC = () => {
             </section>
 
             <section className="about-section">
-              <h3>Passion for Coding and Networks:</h3>
+              <h3>Passion for Coding and Networks</h3>
               <p>
                 Coding isn't just a job for me; it's a passion. I find joy in
                 crafting elegant solutions, and my love for coding extends to
@@ -69,7 +69,7 @@ const About: React.FC = () => {
             </section>
 
             <section className="about-section">
-              <h3>Academic Journey:</h3>
+              <h3>Academic Journey</h3>
               <p>
                 Equipped with a B.Tech major in Computer Science and an MBA
                 major in Marketing (with a minor in Business Analytics), I've
@@ -81,7 +81,7 @@ const About: React.FC = () => {
             </section>
 
             <section className="about-section">
-              <h3>Versatility in Interests:</h3>
+              <h3>Versatility in Interests</h3>
               <p>
                 My multifaceted interests extend to driving, gaming, and
                 reveling in the captivating worlds of anime and manga. The
@@ -92,7 +92,7 @@ const About: React.FC = () => {
             </section>
 
             <section className="about-section">
-              <h3>Coffee Break Chronicles:</h3>
+              <h3>Coffee Break Chronicles</h3>
               <p>
                 Amidst my dynamic pursuits, there's always time for a coffee
                 break. Whether delving into lines of code or pondering over
@@ -101,7 +101,7 @@ const About: React.FC = () => {
               </p>
             </section>
             <section className="about-section">
-              <h3>Motivation and Career Aspirations:</h3>
+              <h3>Motivation and Career Aspirations</h3>
               <p>
                 I am driven by an innate motivation to learn and adapt,
                 continuously acquiring new skills and staying at the forefront

@@ -14,7 +14,7 @@ const Home: React.FC = () => {
         <div className="description">
           <p id="des">
             Welcome to my portfolio! I am Neelak Ghosh, a passionate developer
-            dedicated to creating awesome web applications.
+            who loves to code!
           </p>
         </div>
         <div className="buttons-container">
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
           </a>
         </div>
         <div className="footer">
-          This Website was made in React and hosted on home server by me.
+          This Website was made using React and hosted on my home server.
         </div>
       </div>
     </div>

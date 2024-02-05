@@ -43,6 +43,12 @@ const Projects: React.FC = () => {
       iconSrc: "/projects.png",
       url: "https://github.com/Not-Pace/gARphics",
     },
+    {
+      name: "SQL Murder Mystery",
+      description: "My solution of a murder mystery based on SQL",
+      iconSrc: "/projects.png",
+      url: "https://github.com/Not-Pace/gARphics",
+    },
   ];
 
   return (
