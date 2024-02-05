@@ -47,7 +47,7 @@ const Projects: React.FC = () => {
       name: "SQL Murder Mystery",
       description: "My solution of a murder mystery based on SQL",
       iconSrc: "/projects.png",
-      url: "https://github.com/Not-Pace/gARphics",
+      url: "https://github.com/LiquidDazee/sql-murder-mystery",
     },
   ];
 
