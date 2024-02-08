@@ -32,7 +32,7 @@ const About: React.FC = () => {
               {/* <Spotify link="https://open.spotify.com/track/3zJRvtQkHQRTNEXSY8jQPR?si=ec428547de3f4939" /> */}
             </div>
             <div className="image-container">
-              <img className="about-image" src="/puppycuddle.png" />
+              <img className="about-image" src="/puppycuddle.webp" />
               {/* <div className="about-image2" /> */}
               <p>(I'm on the right! The beautiful dog isn't mine)</p>
             </div>
