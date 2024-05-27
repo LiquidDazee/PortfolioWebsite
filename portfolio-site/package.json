@@ -10,6 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "color-name": "^2.0.0",
+    "globals": "^15.3.0",
+    "lru-cache": "^10.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.21.3",
